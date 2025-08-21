@@ -2,7 +2,7 @@
   "scripts": {
     "build": "npm run build:clean && npm run build:tailwind",
     "build:clean": "rimraf ../static/css/dist",
-    "build:tailwind": "tailwindcss -i ./src/input.css -o ../static/css/dist/styles.css"
+    "build:tailwind": "tailwindcss -i ./src/styles.css -o ../static/css/dist/styles.css"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.0",
